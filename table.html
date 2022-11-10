@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UtF-8">
+	<!-- <meta http-equiv="X-UA_Compatible" content="IE-edge"> ????-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--fonts-->
+	<!--<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<!--/fonts-->
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="table.css">
+	<title>Handmade shop Lauritka</title>
+
+</head>
+
+<body>
+	<!--Main-->
+	<div class="main">
+		<!--Header-->
+		<header id="header">
+			<nav class="header-pc">
+				<a href="index.html" class="name-of-page">головна</a>
+				<a href="catalog.html" class="name-of-page">каталог</a>
+				<a href="index.html?feedback=#about-us" class="name-of-page">про нас</a>
+				<a href="pagenotfound.html" class="name-of-page">як придбати</a>
+				<a href="index.html"><img src="img/logo.jpg" alt="logo" class="logo"></a>
+				<a href="pagenotfound.html" class="name-of-page">акаунт</a>
+				<a href="table.html" class="name-of-page">кошик</a>
+				<input type="text" name="search" placeholder="пошук">
+			</nav>
+
+
+
+			<div class="header-mobile3">
+				<div class="topnav">
+					<a href="index.html?feedback=#about-us" class="active"><img src="img/logo.jpg" alt="logo" class="logo"></a>
+
+
+					<div id="myLinks">
+						<a href="index.html" class="name-of-page">головна</a>
+						<a href="catalog.html" class="name-of-page">каталог</a>
+						<a href="index.html" class="name-of-page">про нас</a>
+						<a href="pagenotfound.html" class="name-of-page">як придбати</a>
+						<a href="pagenotfound.html" class="name-of-page">акаунт</a>
+						<a href="table.html" class="name-of-page">кошик</a>
+						<input type="text" name="search" placeholder="пошук">
+					</div>
+
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						|||
+						<i class="fa fa-bars"></i>
+					</a>
+
+				</div>
+			</div>
+
+			<!--<p class="menu-dropdown">|||</p>-->
+			<!--			<div class="search-space">
+				<h4 class="search">пошук</h4>
+
+			</div>-->
+			<!--каталог про нас як придбати лого пошук акаунт кошик-->
+		</header>
+
+		<!--Main content-->
+		<div class="main-content">
+			<p class="add-table">
+				Сторінка "КОШИК" наразі не доступна,
+				але ви можете ознайомитися з нашим прайсом
+				та зробити своє замовлення.
+			</p>
+
+			<h2 class="topic">Прайс</h2>
+			<table class="table1">
+				<tr>
+					<th>НОМЕР ТОВАРУ</th>
+					<th>НАЗВА ТОВАРУ</th>
+					<th>ОПИС</th>
+					<th>ВИКОНАВЕЦЬ</th>
+					<th>НАЯВНІСТЬ</th>
+					<th>ВИГОТОВИТИ НА ЗАМОВЛЕННЯ</th>
+					<th>ЦІНА</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>картина чарівне море</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>310 грн</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>картина милий песик</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>немає в наявності</td>
+					<td>можливо</td>
+					<td>310 грн</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>картина левчик</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>870 грн</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>картина флюід арт</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>не можливо</td>
+					<td>300 грн</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>картина на замовлення</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>немає в наявності</td>
+					<td>можливо</td>
+					<td>залежить від складності</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>шопер левчик</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>290 грн</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>шопер морська черепаха</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>290 грн</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>шопер на замовлення</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>немає в наявності</td>
+					<td>можливо</td>
+					<td>залежить від складності</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>браслет фіолетовий</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>немає в наявності</td>
+					<td>можливо</td>
+					<td>60 грн</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>шапка рожева</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>260 грн</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>шапка зелена</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>260 грн</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>шапка на замовлення</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>немає в наявності</td>
+					<td>можливо</td>
+					<td>320 грн</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>снуд рожевий</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>420 грн</td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td>снуд на замовлення</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>немає в наявності</td>
+					<td>можливо</td>
+					<td>495 грн</td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>серветка рожево-фіолетова</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>40 грн</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>серветка фіолетова-рожева</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>40 грн</td>
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>серветка жовто-блакитна</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>40 грн</td>
+				</tr>
+				<tr>
+					<td>18</td>
+					<td>серветка блакитно жовта</td>
+					<td>поки ще не придумала</td>
+					<td>Лаура</td>
+					<td>є в наявності</td>
+					<td>можливо</td>
+					<td>40 грн</td>
+				</tr>
+
+
+			</table>
+
+			<table class="table2">
+				<tr>
+					<th>НОМЕР ТОВАРУ</th>
+					<th>НАЗВА ТОВАРУ</th>
+					<th>НАЯВНІСТЬ</th>
+					<th>ЦІНА</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>картина чарівне море</td>
+					<td>є в наявності</td>
+					<td>310 грн</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>картина милий песик</td>
+					<td>немає в наявності</td>
+					<td>310 грн</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>картина левчик</td>
+					<td>є в наявності</td>
+					<td>870 грн</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>картина флюід арт</td>
+					<td>є в наявності</td>
+					<td>300 грн</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>картина на замовлення</td>
+					<td>немає в наявності</td>
+					<td>залежить від складності</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>шопер левчик</td>
+					<td>є в наявності</td>
+					<td>290 грн</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>шопер морська черепаха</td>
+					<td>є в наявності</td>
+					<td>290 грн</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>шопер на замовлення</td>
+					<td>немає в наявності</td>
+					<td>залежить від складності</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>браслет фіолетовий</td>
+					<td>немає в наявності</td>
+					<td>60 грн</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>шапка рожева</td>
+					<td>є в наявності</td>
+					<td>260 грн</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>шапка зелена</td>
+					<td>є в наявності</td>
+					<td>260 грн</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>шапка на замовлення</td>
+					<td>немає в наявності</td>
+					<td>320 грн</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>снуд рожевий</td>
+					<td>є в наявності</td>
+					<td>420 грн</td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td>снуд на замовлення</td>
+					<td>немає в наявності</td>
+					<td>495 грн</td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>серветка рожево-фіолетова</td>
+					<td>є в наявності</td>
+					<td>40 грн</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>серветка фіолетова-рожева</td>
+					<td>є в наявності</td>
+					<td>40 грн</td>
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>серветка жовто-блакитна</td>
+					<td>є в наявності</td>
+					<td>40 грн</td>
+				</tr>
+				<tr>
+					<td>18</td>
+					<td>серветка блакитно жовта</td>
+					<td>є в наявності</td>
+					<td>40 грн</td>
+				</tr>
+
+
+			</table>
+
+			<p class="add-table">
+				Для замовлення заповніть форму зворотнього зв'язку
+				представлену нижче та впишіть туди свої контактні дані та номера
+				обраних товарів. Ми сконтактуємо з вами для подальших кроків.
+			</p>
+
+			<div class="space2"></div>
+
+
+			<form class="feedback-form" action="information.php" method="post">
+				<p class="feedback-ftitle">зробити замовлення</p>
+
+				<label for="fname">Ваше ім'я</label>
+				<input type="text" id="fname" placeholder="ім’я">
+				<label for="lname">Ваше прізвіще</label>
+				<input type="text" id="lname" placeholder="прізвіще">
+				<label for="email">Ваша електронна адреса</label>
+				<input type="text" id="email" placeholder="email">
+
+				<label for="question">Бажаєте отримувати додаткову інформацію</label>
+				<select id="question">
+					<option value="yes">Так</option>
+					<option value="no">Ні</option>
+				</select>
+
+				<label for="order">Ваше замовлення</label>
+				<textarea id="order" name="order" placeholder="напишіть номера товарів, які ви хочете замовити"></textarea>
+
+				<input type="submit" value="відправити">
+			</form>
+
+			<h2 class="topic">Оновлення сайту</h2>
+			<p class="add-text">
+				Для нас дуже важлива якість нашого продукту. Саме тому ми вирішили покращити сторінку з товарами.
+				Нижче представлен оновлений варіант. Чи подобається він вам. Залиште відгук та поділіться своїми враженнями з нами.
+			</p>
+			<div id="goods-form" class="goods-form-title">
+				<a href="table.html#goods-form" class="b-space">ШОПЕРИ</a>
+				<a href="table2.html#goods-form" class="a-space">КАРТИНИ</a>
+				<a href="table3.html#goods-form" class="a-space">АКСЕСУАРИ</a>
+				<a href="table4.html#goods-form" class="a-space">ІНШЕ</a>
+			</div>
+			<div class="goods-form">
+				<div class="turtle2">
+					<div class="turtle-phn">
+						<div class="turtle-photo"></div>
+						<p class="g-name">шопер морська черепаха</p>
+						<p class="g-name">#8</p>
+					</div>
+					<div class="white-space">
+						<p class="tprice">290 грн</p>
+						<div class="main-info">
+							<p class="d-text">✔ розмір: 37х32 см.</p>
+							<p class="d-text">✔ ручне прання</p>
+							<p class="d-text">✔ виконавець: Лаура</p>
+							<p class="d-text">✔ є в наявності</p>
+							<p class="d-text">✔ можливо виготовити на замовлення</p>
+						</div>
+					</div>
+					<div class="buy-space">
+						<button class="button button4">купити</button>
+					</div>
+				</div>
+				<div class="turtle2">
+					<div class="turtle-phn">
+						<div class="lion-photo"></div>
+						<p class="g-name">шопер левчик</p>
+						<p class="g-name">#7</p>
+					</div>
+					<div class="white-space">
+						<p class="tprice">290 грн</p>
+						<div class="main-info">
+							<p class="d-text">✔ розмір: 39х36 см.</p>
+							<p class="d-text">✔ ручне прання</p>
+							<p class="d-text">✔ виконавець: Лаура</p>
+							<p class="d-text">✔ є в наявності</p>
+							<p class="d-text">✔ можливо виготовити на замовлення</p>
+						</div>
+					</div>
+					<div class="buy-space">
+						<button class="button button4">купити</button>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<!--Footer-->
+		<footer>
+			<!--Logo + social + offers + for customers-->
+			<div class="footer-part1">
+				<!--Logo + social-->
+				<div class="logo-social">
+					<!--logo-->
+					<div class="footer-logo">
+						<a href="index.html" class="name-of-shop2">Lauritka</a>
+						<a href="index.html"><img src="img/logo.jpg" alt="logo" class="logo"></a>
+					</div>
+					<!--social-->
+					<div class="social-networks">
+						<p class="footer-title">Ми в соціальних мережах</p>
+						<a href="https://www.instagram.com/_lauritka_/" class="footer-nofp">Instagram</a>
+						<a class="footer-nofp">Telegram</a>
+						<a class="footer-nofp">Youtube</a>
+						<a class="footer-nofp">TikTok</a>
+					</div>
+				</div>
+				<!--offers-->
+				<div class="offers">
+					<p class="footer-title">наші пропозиції</p>
+					<a href="catalog.html" class="footer-nofp">придбати товар</a>
+					<a href="index.html#mis-sp-p" class="footer-nofp">стати партнером</a>
+					<a href="index.html#mis-sp-p" class="footer-nofp">стати спонсором</a>
+					<a href="index.html#news" class="footer-nofp">новини</a>
+					<a href="index.html#feedbacks" class="footer-nofp">відгуки</a>
+					<a href="index.html#blog" class="footer-nofp">блог</a>
+
+				</div>
+				<!--for customers-->
+				<div class="for-customers">
+					<p class="footer-title">Покупцям</p>
+					<a href="index.html" class="footer-nofp">головна</a>
+					<a href="catalog.html" class="footer-nofp">каталог</a>
+					<a href="pagenotfound.html" class="footer-nofp">як придбати</a>
+					<a href="pagenotfound.html" class="footer-nofp">доставка</a>
+					<a href="pagenotfound.html" class="footer-nofp">повернення</a>
+					<a href="index.html#mis-sp-p" class="footer-nofp">партнери</a>
+					<a href="index.html#mis-sp-p" class="footer-nofp">спонсори</a>
+				</div>
+			</div>
+
+			<!--Contacts + schedule-->
+			<div class="footer-part2">
+				<!--contacts-->
+				<div>
+					<p class="footer-title">контакти</p>
+					<p class="footer-nofp">Email:</p>
+					<a href="mailto:lauritka.handmade.shop@gmail.com" class="footer-nofp">lauritka.handmade.shop@gmail.com</a>
+					<p class="footer-nofp">Instagram:</p>
+					<a href="https://www.instagram.com/_lauritka_/" class="footer-nofp">_laurritka_</a>
+				</div>
+				<!--schedule-->
+				<div class="schedule">
+					<p class="work-schedule">
+						Замовлення приймаються цілодобово,
+					</p>
+					<p class="work-schedule">
+						обробка замовлень: Пн-Пт: з 9:00 до 18:00
+					</p>
+				</div>
+			</div>
+
+			<div class="footer-m">
+				<div class="footer-logo">
+					<a href="index.html" class="name-of-shop2">Lauritka</a>
+					<a href="index.html"><img src="img/logo.jpg" alt="logo" class="logo2"></a>
+				</div>
+				<div class="social-networks">
+					<p class="footer-title">Ми в соціальних мережах</p>
+					<a href="https://www.instagram.com/_lauritka_/" class="footer-nofp">Instagram</a>
+					<a class="footer-nofp">Telegram</a>
+					<a class="footer-nofp">Youtube</a>
+					<a class="footer-nofp">TikTok</a>
+				</div>
+
+				<div class="offers">
+					<p class="footer-title">наші пропозиції</p>
+					<a href="catalog.html" class="footer-nofp">придбати товар</a>
+					<a href="index.html#mis-sp-p" class="footer-nofp">стати партнером</a>
+					<a href="index.html#mis-sp-p" class="footer-nofp">стати спонсором</a>
+					<a href="index.html#news" class="footer-nofp">новини</a>
+					<a href="index.html#feedbacks" class="footer-nofp">відгуки</a>
+					<a href="index.html#blog" class="footer-nofp">блог</a>
+
+				</div>
+
+				<div class="for-customers">
+					<p class="footer-title">Покупцям</p>
+					<a href="index.html" class="footer-nofp">головна</a>
+					<a href="catalog.html" class="footer-nofp">каталог</a>
+					<a href="pagenotfound.html" class="footer-nofp">як придбати</a>
+					<a href="pagenotfound.html" class="footer-nofp">доставка</a>
+					<a href="pagenotfound.html" class="footer-nofp">повернення</a>
+					<a href="index.html#mis-sp-p" class="footer-nofp">партнери</a>
+					<a href="index.html#mis-sp-p" class="footer-nofp">спонсори</a>
+
+				</div>
+
+				<div>
+					<p class="footer-title">контакти</p>
+					<p class="footer-nofp">Email:</p>
+					<a href="mailto:lauritka.handmade.shop@gmail.com" class="footer-nofp">lauritka.handmade.shop@gmail.com</a>
+					<p class="footer-nofp">Instagram:</p>
+					<a href="https://www.instagram.com/_lauritka_/" class="footer-nofp">_laurritka_</a>
+				</div>
+				<!--schedule-->
+				<div class="schedule">
+					<p class="work-schedule">
+						Замовлення приймаються цілодобово,
+					</p>
+					<p class="work-schedule">
+						обробка замовлень: Пн-Пт: з 9:00 до 18:00
+					</p>
+				</div>
+
+
+
+
+			</div>
+
+		</footer>
+
+
+	</div>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myLinks");
+			if (x.style.display === "block") {
+				x.style.display = "none";
+			} else {
+				x.style.display = "block";
+			}
+		}
+	</script>
+
+
+</body>
+
+</html>

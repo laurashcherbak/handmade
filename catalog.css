@@ -1,0 +1,704 @@
+
+.main-photo {
+
+    background-image: url('img/not_main_photo2.jpg');
+    height: 253px;
+    padding-top: 60px;
+
+}
+
+.catalog {
+    height: 594px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog-menu {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    width: 315px;
+    height: 324px;
+    padding-top: 34px;
+    padding-bottom: 32px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-right: 27px;
+    margin-left: 27px;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog-img {
+    width: 260px;
+    height: 270px;
+    background-color: white;
+}
+
+.catalog-img1 {
+    width: 315px;
+    height: 270px;
+    background-color: white;
+    background-image: url('img/menu_bag.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catalog-img2 {
+    width: 315px;
+    height: 270px;
+    background-color: white;
+    background-image: url('img/menu_paint.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catalog-img3 {
+    width: 315px;
+    height: 270px;
+    background-color: white;
+    background-image: url('img/menu_ac.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.cat-font {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
+    margin-top: 19px;
+
+    color: #000000;
+}
+
+.buttons-space {
+    width: 1332px;
+    display: flex;
+    justify-content: center;
+}
+
+.all-goods {
+    height: 1024px;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-g-space {
+    margin-top: 40px;
+    width: 1165px;
+    height: 822px;
+    display: flex;
+    justify-content: flex-start;
+    background: white;
+}
+
+.img-allg {
+    width: 584px;
+    height: 822px;
+    background-image: url('img/turtle.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desc-allg {
+    width: 504px;
+    height: 702px;
+    background-color: white;
+    padding-top: 55px;
+    padding-bottom: 65px;
+    padding-left: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc {
+    margin-top: 33px;
+    margin-bottom: 270px;
+    width: 502px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.desc-w {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.d-text {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+.button {
+    background-color: #8B8B8B;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.button1 {
+    border-radius: 2px;
+}
+
+.button2 {
+    border-radius: 4px;
+}
+
+.button3 {
+    border-radius: 8px;
+}
+
+.button4 {
+    border-radius: 15px;
+    width: 236px;
+    height: 60px;
+}
+
+.button5 {
+    margin-top: 440px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+
+.g-name {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.p-name {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+
+.eco-bags {
+    height: 1024px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.paintings {
+    height: 1024px;
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grey-space {
+    margin-top: 40px;
+    width: 550px;
+    height: 822px;
+    background: #D9D9D9;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grey-space2 {
+    margin-top: 40px;
+    width: 550px;
+    height: 822px;
+    background: #D9D9D9;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.turtle-photo {
+    width: 550px;
+    height: 574px;
+    background-image: url('img/turtle.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 28px;
+}
+
+.lion-photo {
+    width: 550px;
+    height: 574px;
+    background-image: url('img/lion.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 28px;
+}
+
+.white-space {
+    margin-top: 40px;
+    width: 550px;
+    height: 822px;
+    background: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.white-space2 {
+    margin-top: 40px;
+    width: 550px;
+    height: 822px;
+    background: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sea-photo {
+    width: 550px;
+    height: 574px;
+    background-image: url('img/sea.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 28px;
+}
+
+.dog-photo {
+    width: 550px;
+    height: 574px;
+    background-image: url('img/dog.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 28px;
+}
+
+.bracelet-photo {
+    width: 550px;
+    height: 574px;
+    background-image: url('img/bracelet.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 28px;
+}
+
+.hat-photo {
+    width: 550px;
+    height: 574px;
+    background-image: url('img/hat.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 28px;
+}
+
+
+
+
+
+.accessories {
+    height: 1024px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-info {
+    height: 421px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 22px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.inf1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 629px;
+}
+
+.text-inf1 {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.inf2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space {
+    height: 35px;
+}
+
+@media screen and (max-width: 400px) {
+    .main-photo {
+        background-image: url('img/main5.jpg');
+        height: 253px;
+        padding-top: 60px;
+    }
+
+    .main-phrase {
+
+        color: #FFFFFF;
+    }
+
+    .catalog {
+        height: 1100px;
+    }
+
+    .catalog-menu {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .option {
+        width: 182px;
+        height: 208px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        padding-top: 34px;
+        padding-bottom: 32px;
+        padding-left: 45px;
+        padding-right: 45px;
+        background: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .catalog-img1 {
+        width: 194px;
+        height: 172px;
+    }
+
+    .catalog-img2 {
+        width: 194px;
+        height: 172px;
+    }
+
+    .catalog-img3 {
+        width: 194px;
+        height: 172px;
+    }
+
+    .cat-font {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        margin-top: 12px;
+        color: #000000;
+    }
+
+    .all-goods {
+        height: 1400px;
+        background: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons-space {
+        width: 340px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .all-g-space {
+        margin-top: 40px;
+        width: 240px;
+        height: 1160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: white;
+    }
+
+    .img-allg {
+        width: 240px;
+        height: 480px;
+        background-image: url(img/turtle.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .desc-allg {
+        width: 200px;
+        height: 480px;
+        background-color: white;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .g-name {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-left: 10px;
+    }
+
+    .desc-w {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+
+    .desc {
+        margin-top: 33px;
+        margin-bottom: 270px;
+        width: 200px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .d-text {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: lowercase;
+        color: #000000;
+    }
+
+    .p-name {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    .button4 {
+        border-radius: 15px;
+        width: 187px;
+        height: 50px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .grey-space2 {
+        margin-top: 40px;
+        width: 550px;
+        height: 822px;
+        background: #D9D9D9;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .white-space2 {
+        margin-top: 40px;
+        width: 550px;
+        height: 822px;
+        background: #D9D9D9;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .turtle-photo {
+        width: 240px;
+        height: 574px;
+        background-image: url(img/turtle.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 28px;
+    }
+
+    .sea-photo {
+        width: 240px;
+        height: 574px;
+        background-image: url(img/sea.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 28px;
+    }
+
+
+
+
+    .grey-space {
+        margin-top: 40px;
+        width: 240px;
+        height: 822px;
+        background: #D9D9D9;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .white-space {
+        margin-top: 40px;
+        width: 240px;
+        height: 822px;
+        background: white;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bracelet-photo {
+        width: 240px;
+        height: 574px;
+        background-image: url(img/bracelet.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 28px;
+    }
+
+    .add-info {
+        height: 421px;
+        background: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 42px;
+        padding-bottom: 42px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+    .text-inf1 {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    .inf1 {
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 360px;
+        margin-bottom: 20px;
+    }
+
+}
+

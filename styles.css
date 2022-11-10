@@ -1,0 +1,1713 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #000000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    /*color: #1244B9;*/
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #F8790A;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+header {
+    /*position: absolute;
+    width: 1440px;*/
+    height: 132px;
+    /*margin-left: 0px;
+    margin-top: 0px;*/
+    padding-right: 25px;
+    padding-left: 25px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.header-pc {
+    /*position: absolute;
+    width: 1440px;*/
+    height: 132px;
+    /*margin-left: 0px;
+    margin-top: 0px;*/
+    padding-right: 25px;
+    padding-left: 25px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+
+.name-of-page {
+    /*position: absolute;*/
+    /*width: 120px;
+    height: 35px;*/
+    /*margin-left: 41px;*/
+    margin-top: 44px;
+    margin-right: 25px;
+    font-family: 'Comic Neue', cursive;
+    /*font-family: 'Comic Neue';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.name-of-main-page {
+    /*position: absolute;*/
+    /*width: 120px;
+    height: 35px;*/
+    /*margin-left: 41px;*/
+    margin-top: 44px;
+    margin-right: 25px;
+    font-family: 'Comic Neue', cursive;
+    /*font-family: 'Comic Neue';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
+    color: #FFFFFF;
+    display: none;
+}
+
+.logo {
+    /*position: absolute;*/
+    width: 90px;
+    height: 90px;
+    margin-top: 21px;
+    margin-right: 25px;
+    /*left: 675px;
+    top: 21px;*/
+    border-radius: 90px;
+}
+
+.logo-2-href {
+    display: none;
+}
+
+
+.search-space {
+    /*position: absolute;*/
+    width: 260px;
+    height: 49px;
+    margin-top: 37px;
+    margin-right: 25px;
+    /*left: 900px;
+    top: 37px;*/
+    background: #8B8B8B;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search {
+    /*position: absolute;*/
+    /*width: 120px;
+    height: 35px;*/
+    /*margin-left: 41px;*/
+    /*margin-top: 44px;*/
+    margin-top: 6px;
+    margin-left: 26px;
+    font-family: 'Comic Neue', cursive;
+    /*font-family: 'Comic Neue';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+/*.menu-dropdown {
+    display: none;
+}*/
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-photo {
+    /*position: absolute;*/
+    /*width: auto;*/
+    background-color: #cccccc;
+    background-image: url('img/main_photo.jpg');
+    height: 851px;
+    padding-top: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    /*position: relative;*/
+    /*left: 0px;
+    top: 133px;*/
+}
+
+.main-phrase {
+    font-family: 'Comic Neue', cursive;
+    /*position: absolute;*/
+    /*width: 616px;
+    height: 55px;
+    left: 412px;
+    top: 219px;*/
+    /*font-family: 'Comic Neue';*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+    /*border: 2px solid #2B2A2A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);*/
+}
+
+
+.name-of-shop {
+    /*position: absolute;
+    width: 451px;
+    height: 110px;
+    left: 494px;
+    top: 274px;*/
+    /* font-family: 'Comic Neue';*/
+    font-family: 'Comic Neue', cursive;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 110px;
+    letter-spacing: 0.05em;
+    color: #E345C1;
+    /*border: 2px solid #1E1E1E;*/
+    /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.aps {
+    display: flex;
+    flex-direction: column;
+}
+
+.laura-inf {
+    position: absolute;
+    /* width: 458px;
+    height: 604px;*/
+    left: 47px;
+    top: 1167px;
+    background-color: #11A020;
+    background-image: url('img/laura.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.laura-text {
+    background: white;
+    /*position: absolute;*/
+    width: 438px;
+    height: 60px;
+    left: 47px;
+    /*top: 1701px;*/
+    margin-top: 534px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.laura-tt {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.about-us-inf {
+    /*position: absolute;
+    width: 1440px;*/
+    height: 437px;
+    /*left: 0px;
+    top: 1024px;*/
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-b {
+    font-weight: 700;
+}
+
+.topic {
+    /*position: absolute;
+    width: 167px;
+    height: 41px;
+    left: 636px;
+    top: 1087px;*/
+    /*font-family: 'Comic Neue';*/
+    margin-top: 63px;
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about-shop {
+    /*position: absolute;
+    width: 875px;
+    height: 210px;
+    left: 531px;
+    top: 1182px;*/
+    /*font-family: 'Comic Neue';*/
+    margin-top: 60px;
+    margin-left: 531px;
+    margin-right: 25px;
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    /*text-transform: capitalize;*/
+    color: #000000;
+}
+
+/*Our mission + Sponsors + Partners*/
+.mis-sp-p {
+    /*position: absolute;
+    width: 1440px;*/
+    height: 989px;
+    padding-top: 30px;
+    /*left: 0px;
+    top: 1461px;*/
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Our mission*/
+.mission {
+    margin-left: 549px;
+    margin-right: 44px;
+    padding-left: 60px;
+    height: 250px;
+    display: flex;
+}
+
+.topic-mission {
+    /*position: absolute;
+    width: 212px;
+    height: 14px;
+    left: 549px;
+    top: 1723px;*/
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(-90deg);
+}
+
+.mission-text {
+    margin-top: 20px;
+    width: 646px;
+    height: 84px;
+    background: #D9D9D9;
+    border: 1px solid #11A020;
+    border-radius: 45px;
+    padding-top: 61px;
+    padding-bottom: 61px;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.how-to-be {
+    margin-top: 94px; /*94*/
+    display: flex;
+    justify-content: center;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+.ps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 900px;
+
+}
+
+.ps-topic {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.ps-text {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.partners-sponsors {
+    margin-top: 17px; /*94*/
+    display: flex;
+    justify-content: center;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+.ps-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.partner-img1 {
+    width: 98px;
+    height: 134px;
+    background: #11A020;
+    margin-right: 29px;
+    display: flex;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 51px;
+    padding-right: 51px;
+}
+
+.partner-img2 {
+    width: 98px;
+    height: 134px;
+    background: #11A020;
+    margin-right: 29px;
+    display: flex;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 51px;
+    padding-right: 51px;
+}
+
+.partner-img3 {
+    width: 98px;
+    height: 134px;
+    background: #11A020;
+    display: flex;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 51px;
+    padding-right: 51px;
+}
+
+.sponsor-img1 {
+    width: 98px;
+    height: 134px;
+    background: #11A020;
+    margin-right: 29px;
+    display: flex;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 51px;
+    padding-right: 51px;
+}
+
+.sponsor-img2 {
+    width: 98px;
+    height: 134px;
+    background: #11A020;
+    margin-right: 29px;
+    display: flex;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 51px;
+    padding-right: 51px;
+}
+
+.sponsor-img3 {
+    width: 98px;
+    height: 134px;
+    background: #11A020;
+    display: flex;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 51px;
+    padding-right: 51px;
+}
+
+.ps-photo {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ps-inf {
+    margin-top: 31px;
+    width: 195px;
+    height: 90px;
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+    text-transform: lowercase;
+    color: #000000;
+}
+
+.news-page {
+    /*position: absolute;
+    width: 1440px;*/
+    height: 1024px;
+    /*left: 0px;
+    top: 4533px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+.news1 {
+    /*position: absolute;*/
+    width: 100%;
+    height: 408px;
+    /*left: 54px;
+    right: 54px;
+    top: 2613px;*/
+    background: #11A020;
+    border-radius: 90px;
+    margin-top: 31px;
+    margin-bottom: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-title {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+.news-text {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.news2 {
+    /*position: absolute;*/
+    width: 100%;
+    height: 408px;
+    /*margin-left: 54px;
+    margin-right: 54px;*/
+    /*top: 3044px;*/
+    background-image: url('img/news2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.feedback-page {
+    /*position: absolute;*/
+    /*width: 1440px;*/
+    height: 1024px;
+    /*left: 0px;*/
+    /*top: 3509px;*/
+
+    background: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-inf {
+    height: 852px;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.feedback-form {
+    box-sizing: border-box;
+    /*position: absolute;*/
+    width: 564px;
+    height: 742px;
+    /*left: 54px;
+    top: 3667px;*/
+    background: #D9D9D9;
+    border: 1px solid #11A020;
+    border-radius: 90px;
+    margin-right: 51px;
+    padding-top: 56px;
+    padding-bottom: 43px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.feedback-ftitle {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    text-transform: uppercase;
+    color: #000000;
+}
+
+input[type=text] {
+    margin-top: 27px;
+    width: 400px;
+    height: 28px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+textarea {
+    margin-top: 27px;
+    width: 400px;
+    height: 236px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+input[type=submit] {
+    margin-top: 27px;
+    width: 206px;
+    height: 76px;
+    background: #11A020;
+    border-radius: 25px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 29px;
+    padding-right: 29px;
+    border: none;
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.feedbacks {
+    /*position: absolute;*/
+    width: 615px;
+    height: 742px;
+    /*left: 720px;
+    top: 3667px;*/
+    margin-left: 51px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.feedback1 {
+    width: 548px;
+    height: 223px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin-bottom: 22px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.name-f {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #11A020;
+    margin-bottom: 10px;
+}
+
+.text-f {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.feedback2 {
+    width: 548px;
+    height: 175px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin-bottom: 44px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.feedback-phrase {
+    width: 612px;
+    height: 190px;
+    background: #D9D9D9;
+    border: 1px solid #11A020;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fpt {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.blog-page {
+    /*position: absolute;
+    width: 1440px;*/
+    height: 1024px;
+    /*left: 0px;
+    top: 4533px;*/
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.blog-inf {
+    margin-top: 32px;
+    /*width: 1332px;*/
+    display: flex;
+    justify-content: center;
+}
+
+.inf-video {
+    width: 823px;
+    height: 820px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.blog-text {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.blog-social {
+    margin-top: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.blog-video {
+    margin-top: 42px;
+    width: 809px;
+    height: 448px;
+    background: #11A020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.blog-video3 {
+    margin-top: 42px;
+    width: 180px;
+    height: 320px;
+    display: none;
+}
+
+
+.blog-video2 {
+    margin-top: 42px;
+    width: 809px;
+    height: 448px;
+    display: block;
+}
+
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.video-text {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.insta-photo {
+    width: 424px;
+    height: 820px;
+    background-image: url('img/lauritka_instagram.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+footer {
+    /*position: absolute;
+    width: 1440px;*/
+    height: 557px;
+    /*left: 0px;
+    top: 5557px;*/
+    padding-top: 30px;
+    padding-right: 43px;
+    padding-left: 43px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-part1 {
+    display: flex;
+}
+
+.logo-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-of-shop2 {
+    /*position: absolute;
+    width: 224px;
+    height: 74px;
+    left: 52px;
+    top: 5605px;*/
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 29px;
+    margin-right: 40px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 40px;
+    /*align-items: flex-start;*/
+}
+
+.footer-title {
+    /*position: absolute;
+    width: 374px;
+    height: 28px;
+    left: 43px;
+    top: 5727px;*/
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-nofp {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 116px;
+    margin-left: 116px;
+}
+
+.for-customers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 116px;
+    margin-left: 116px;
+}
+
+.footer-part2 {
+    margin-top: 48px;
+    display: flex;
+
+}
+
+.schedule {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-schedule {
+    font-family: 'Comic Neue', cursive;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    /* or 100% */
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-mobile3 {
+    max-width: 400px;
+    /*position: absolute;
+    width: 1440px;*/
+    height: 132px;
+    /*margin-left: 0px;
+    margin-top: 0px;*/
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+    display: none;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #000000;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+    .topnav #myLinks {
+        display: none;
+        padding-left: 35px;
+        padding-bottom: 20px;
+    }
+
+    .topnav a {
+        color: white;
+        padding-top: 14px;
+        padding-bottom: 16px;
+        padding-left: 33px;
+        padding-right: 32px;
+        text-decoration: none;
+        font-size: 22px;
+        display: block;
+    }
+
+        .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 25px;
+            font-family: 'Comic Neue', cursive;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 55px;
+            letter-spacing: 0.1em;
+            color: #FFFFFF;
+            transform: rotate(-90deg);
+        }
+
+        .topnav a:hover {
+            color: #F8790A;
+        }
+
+.active {
+    background-color: #000000;
+}
+
+.footer-m {
+    width: 370px;
+    display: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+@media screen and (max-width: 400px) {
+
+
+    .logo {
+        /* position: absolute; */
+        width: 75px;
+        height: 75px;
+        margin-right: 260px;
+    }
+
+    header {
+        padding: 0 15px;
+    }
+
+    .mobile-container {
+        display: block;
+    }
+    
+    .header-mobile3 {
+        display: block;
+    }
+
+    .header-pc{
+        display: none;
+    }
+
+    .header-mobile {
+        display: none;
+    }
+
+    .dropbtn {
+        display: inline-block;
+    }
+
+    .name-of-page {
+        /* position: absolute; */
+        /* margin-left: 41px; */
+        margin-top: 20px;
+        margin-right: 0px;
+        font-size: 30px;
+        line-height: 35px;
+
+    }
+
+    .logo-2-href {
+        display: block;
+    }
+
+    .dropdown-content{
+        display: block;
+    }
+
+    main-content {
+        padding: 0 15px;
+    }
+
+    .main-photo {
+        padding-left: 15px;
+        padding-right: 15px;
+     
+    }
+
+    .main-phrase {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .name-of-shop {
+        font-size: 64px;
+    }
+
+    .topic {
+
+        margin-top: 63px;
+        font-size: 32px;
+        line-height: 41px;
+    }
+
+    .laura-inf {
+        left: 15px;
+
+    }
+
+    .laura-text {
+        width: 160px;
+        height: 40px;
+        left: 15px;
+        margin-top: 534px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .laura-tt {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .about-shop {
+        margin-top: 50px;
+        margin-left: 220px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .mis-sp-p {
+        height: 1000px;
+    }
+
+    .mission {
+        margin-left: 150px;
+        margin-right: 15px;
+        padding-left: 60px;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topic-mission {
+        font-size: 14px;
+        line-height: 15px;
+        transform: none;
+    }
+
+    .mission-text {
+        margin-top: 20px;
+        width: 140px;
+        height: 80px;
+        background: none;
+        padding-top: 65px;
+        padding-bottom: 65px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .how-to-be {
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ps {
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 370px;
+    }
+
+
+    .ps-topic {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+
+    .ps-text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .partners-sponsors {
+        margin-top: 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .partner-img1 {
+        width: 55px;
+        height: 55px;
+        margin-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .partner-img2 {
+        width: 55px;
+        height: 55px;
+        margin-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .partner-img3 {
+        width: 55px;
+        height: 55px;
+        margin-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .ps-photo {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .ps-inf {
+        margin-top: 15px;
+        width: 85px;
+        height: 40px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .sponsor-img1 {
+        width: 55px;
+        height: 55px;
+        margin-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+ 
+    .sponsor-img2 {
+        width: 55px;
+        height: 55px;
+        margin-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sponsor-img3 {
+        width: 55px;
+        height: 55px;
+        margin-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .news-page {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .news-title {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .news-text {
+        font-size: 12px;
+        line-height: 10px;
+        text-align: center;
+    }
+
+    .feedback-page {
+        height: 1300px;
+    }
+
+    .feedback-inf {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: normal;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .feedback-form {
+        width: 369px;
+        height: 554px;
+        background: #D9D9D9;
+        border: 1px solid #11A020;
+        border-radius: 90px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 56px;
+        padding-bottom: 43px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 35px;
+    }
+
+    .feedback-ftitle {
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    input[type=text] {
+        margin-top: 27px;
+        width: 260px;
+        height: 40px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+
+        font-size: 14px;
+        line-height: 28px;
+
+    }
+
+    textarea {
+        margin-top: 27px;
+        width: 260px;
+        height: 209px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        background: #FFFFFF;
+        border-radius: 35px;
+
+        font-size: 14px;
+        line-height: 28px;
+
+    }
+
+    input[type=submit] {
+        margin-top: 27px;
+        width: 150px;
+        height: 50px;
+
+        border-radius: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 29px;
+        padding-right: 29px;
+
+        font-size: 16px;
+        line-height: 28px;
+
+    }
+
+    .feedbacks {
+        /* position: absolute; */
+        width: 370px;
+        height: 742px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .feedback1 {
+        width: 300px;
+        height: 110px;
+ 
+        border-radius: 30px;
+        margin-bottom: 22px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-left: 32px;
+        padding-right: 32px;
+    } 
+    
+    .feedback2 {
+        width: 300px;
+        height: 90px;
+ 
+        border-radius: 30px;
+        margin-bottom: 22px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .name-f {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .text-f {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+    }
+
+    .feedback-phrase {
+        width: 364px;
+        height: 190px;
+        background: #D9D9D9;
+        border: 1px solid #11A020;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fpt {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .blog-page {
+        height: 1100px;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .blog-inf {
+        margin-top: 32px;
+        /* width: 1332px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        justify-content: normal;
+    }
+
+    .inf-video {
+        width: 340px;
+        height: 540px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-text {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .blog-social {
+        margin-top: 10px;
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+    }
+
+    .blog-video {
+        margin-top: 42px;
+        width: 180px;
+        height: 320px;
+        background: #11A020;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+    }
+
+    .blog-video2 {
+        display: none;
+    }
+
+
+    .blog-video3 {
+        margin-top: 42px;
+        width: 180px;
+        height: 320px;
+        display: block;
+    }
+
+
+    video {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .video-text {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .insta-photo {
+        width: 180px;
+        height: 340px;
+        background-image: url(img/lauritka_instagram.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 20px;
+    }
+
+
+
+
+
+
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 706px;
+    }
+
+    .footer-part1 {
+        display: none;
+    }
+
+    .footer-part2 {
+        display: none;
+    }
+
+    .footer-m {
+        display: block;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .name-of-shop2 {
+
+        font-size: 64px;
+        line-height: 74px;
+
+        margin-top: 28px;
+        margin-right: 20px;
+    }
+
+    .logo2 {
+        /* position: absolute; */
+        width: 90px;
+        height: 90px;
+        margin-top: 21px;
+        margin-right: 10px;
+        border-radius: 90px;
+    }
+
+    .offers {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .for-customers {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .schedule {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-schedule {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .footer-title {
+        font-size: 16px;
+        line-height: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .footer-nofp {
+
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+    /*.menu-dropdown {
+        font-family: 'Comic Neue', cursive;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 55px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        transform: rotate(-90deg);
+    }*/
+
+}
+
+
+
